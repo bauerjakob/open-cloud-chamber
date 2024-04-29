@@ -11,6 +11,11 @@
 		B2A433D92BDEC8AA006D6C96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A433D82BDEC8AA006D6C96 /* ContentView.swift */; };
 		B2A433DB2BDEC8AC006D6C96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A433DA2BDEC8AC006D6C96 /* Assets.xcassets */; };
 		B2A433DE2BDEC8AC006D6C96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A433DD2BDEC8AC006D6C96 /* Preview Assets.xcassets */; };
+		B2A433E52BDEC950006D6C96 /* OldCar.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B2A433E42BDEC950006D6C96 /* OldCar.usdz */; };
+		B2A433E92BDED0BF006D6C96 /* PeripheralCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A433E82BDED0BF006D6C96 /* PeripheralCommunication.swift */; };
+		B2A433EB2BDEE1AF006D6C96 /* SliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A433EA2BDEE1AF006D6C96 /* SliderControl.swift */; };
+		B2A433ED2BDEE8CF006D6C96 /* CloudChamberModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A433EC2BDEE8CF006D6C96 /* CloudChamberModelView.swift */; };
+		B2A433F12BDEF1C4006D6C96 /* CloudChamber.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B2A433F02BDEF1C4006D6C96 /* CloudChamber.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B2A433D82BDEC8AA006D6C96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2A433DA2BDEC8AC006D6C96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A433DD2BDEC8AC006D6C96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2A433E42BDEC950006D6C96 /* OldCar.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = OldCar.usdz; sourceTree = "<group>"; };
+		B2A433E82BDED0BF006D6C96 /* PeripheralCommunication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralCommunication.swift; sourceTree = "<group>"; };
+		B2A433EA2BDEE1AF006D6C96 /* SliderControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControl.swift; sourceTree = "<group>"; };
+		B2A433EC2BDEE8CF006D6C96 /* CloudChamberModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudChamberModelView.swift; sourceTree = "<group>"; };
+		B2A433F02BDEF1C4006D6C96 /* CloudChamber.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = CloudChamber.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,9 @@
 		B2A433D52BDEC8AA006D6C96 /* OpenCloudChamber */ = {
 			isa = PBXGroup;
 			children = (
+				B2A433E72BDEC992006D6C96 /* Services */,
+				B2A433E62BDEC98D006D6C96 /* Views */,
 				B2A433D62BDEC8AA006D6C96 /* OpenCloudChamberApp.swift */,
-				B2A433D82BDEC8AA006D6C96 /* ContentView.swift */,
 				B2A433DA2BDEC8AC006D6C96 /* Assets.xcassets */,
 				B2A433DC2BDEC8AC006D6C96 /* Preview Content */,
 			);
@@ -62,9 +73,29 @@
 		B2A433DC2BDEC8AC006D6C96 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				B2A433E42BDEC950006D6C96 /* OldCar.usdz */,
+				B2A433F02BDEF1C4006D6C96 /* CloudChamber.usdz */,
 				B2A433DD2BDEC8AC006D6C96 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2A433E62BDEC98D006D6C96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2A433D82BDEC8AA006D6C96 /* ContentView.swift */,
+				B2A433EA2BDEE1AF006D6C96 /* SliderControl.swift */,
+				B2A433EC2BDEE8CF006D6C96 /* CloudChamberModelView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2A433E72BDEC992006D6C96 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2A433E82BDED0BF006D6C96 /* PeripheralCommunication.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2A433DE2BDEC8AC006D6C96 /* Preview Assets.xcassets in Resources */,
+				B2A433E52BDEC950006D6C96 /* OldCar.usdz in Resources */,
+				B2A433F12BDEF1C4006D6C96 /* CloudChamber.usdz in Resources */,
 				B2A433DB2BDEC8AC006D6C96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A433E92BDED0BF006D6C96 /* PeripheralCommunication.swift in Sources */,
+				B2A433ED2BDEE8CF006D6C96 /* CloudChamberModelView.swift in Sources */,
 				B2A433D92BDEC8AA006D6C96 /* ContentView.swift in Sources */,
+				B2A433EB2BDEE1AF006D6C96 /* SliderControl.swift in Sources */,
 				B2A433D72BDEC8AA006D6C96 /* OpenCloudChamberApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenCloudChamber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M89Q97P99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +337,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"OpenCloudChamber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6M89Q97P99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
